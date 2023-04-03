@@ -76,6 +76,7 @@ announcementFromDb.Title=announcement.Title;
                 announcementFromDb.ValidFrom = announcement.ValidFrom;
             }
             if (announcement.ValidTo.HasValue && announcement.ValidTo != announcementFromDb.ValidTo)
+
             {
                 announcementFromDb.ValidTo = announcement.ValidTo;
             }

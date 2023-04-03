@@ -8,6 +8,7 @@ namespace FirstAPIApp.DataContext
         public ProgrammingClubDataContext(DbContextOptions<ProgrammingClubDataContext> options) : base(options) { }
 
 public DbSet<AnnouncementDTO> Announcements { get; set; }
+        public DbSet<Member> Members { get; set; }
 
     }
 }
